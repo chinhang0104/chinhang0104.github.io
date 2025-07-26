@@ -8,6 +8,8 @@ const nextConfig = {
   },
   // Tell Next.js to produce a fully static export
   output: 'export',
+  distDir: 'docs',
+  assetPrefix: '/docs/',
 }
 
 module.exports = nextConfig
