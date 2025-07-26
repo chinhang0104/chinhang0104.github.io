@@ -9,6 +9,8 @@ const nextConfig = {
   // Tell Next.js to produce a fully static export
   output: 'export',
   distDir: 'docs',
+  // Serving from /docs on GitHub Pages
+  basePath: '/docs',
   assetPrefix: '/docs/',
 }
 
