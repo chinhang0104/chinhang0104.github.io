@@ -6,6 +6,8 @@ const nextConfig = {
   experimental: {
     //appDir: true,
   },
+  // Tell Next.js to produce a fully static export
+  output: 'export',
 }
 
 module.exports = nextConfig
