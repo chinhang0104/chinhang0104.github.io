@@ -11,7 +11,8 @@ const nextConfig = {
   distDir: 'docs',
   // Serving from /docs on GitHub Pages
   basePath: '/docs',
-  assetPrefix: '/docs/',
+  assetPrefix: '/',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
