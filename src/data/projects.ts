@@ -28,6 +28,7 @@ export const projects: Project[] = [
     category: "Natural Language Processing",
     image: "/images/chatbot.jpg",
     github: "https://github.com/chinhang0104/LangGraph-deploy",
+    live: "https://langgraph-deploy.onrender.com/docs",
     featured: true,
     status: "Completed",
     date: "2025",
