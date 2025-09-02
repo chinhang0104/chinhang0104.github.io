@@ -21,13 +21,13 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "1",
-    title: "Interactive Chatbot Engine",
+    title: "Interactive Chatbot Engine with UI",
     description: "Deployment ready Chatbot application using LangGraph",
-    longDescription: "Sophisticated interactive Chatbot system using LLM and LangGraph technology. Capable of search documents using RAG and gather knowledge from web search. Also comes with a web demo with API intergration with backend.",
+    longDescription: "Sophisticated interactive Chatbot system using LLM and LangGraph technology. Capable of search documents using RAG and SQL, and gather knowledge from web search. Also comes with a web demo with API intergration with backend.",
     technologies: ["Python", "LangGraph", "PostgreSQL", "Docker", "ReactJs"],
     category: "Natural Language Processing",
     image: "/images/chatbot.jpg",
-    github: "https://github.com/chinhang0104/LangGraph-deploy",
+    github: "https://github.com/chinhang0104/chatbot-web/",
     live: "https://langgraph-deploy.onrender.com/docs",
     featured: true,
     status: "Completed",
