@@ -81,6 +81,7 @@ export default function Projects() {
                 
                 <h3 className="text-xl font-bold mb-3">{project.title}</h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">{project.description}</p>
+                <p className="text-sm text-gray-500 dark:text-gray-300">{project.longDescription}</p>
 
                 {/* Metrics */}
                 {project.metrics && (
